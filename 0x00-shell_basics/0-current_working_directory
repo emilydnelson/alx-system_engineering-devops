@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(pwd) \n
+echo Absolute path="$PWD" \n
