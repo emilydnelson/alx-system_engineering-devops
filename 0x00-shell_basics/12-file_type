@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(stat --terse 10-back)
+echo $(file /tmp/iamafile)
