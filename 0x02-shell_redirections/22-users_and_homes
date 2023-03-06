@@ -1,0 +1,2 @@
+#!/bin/bash
+while IFS=: read -r user _ uid gid desk home shell; do printf "%s\t%s\n" "$user" "$home"; done < /etc/passwd | sort -k1
